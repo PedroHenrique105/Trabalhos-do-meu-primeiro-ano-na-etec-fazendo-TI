@@ -1,0 +1,145 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CORES DA MARCA */
+.cor-g1 { color: #c4170c !important; }
+.cor-ge { color: #06aa48 !important; }
+.cor-gshow { color: #ff6700 !important; }
+.cor-globoplay { color: #fb123d !important; }
+
+/* CABEÇALHO */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo-globo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #06aa48; /* Cor icônica aproximada */
+    letter-spacing: -1px;
+}
+
+.logo-globo span {
+    color: #aaa;
+    font-weight: normal;
+}
+
+.menu-principais {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-principais a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* GRID DE NOTÍCIAS */
+.container-noticias {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Dividido em 3 partes (2 para esquerda, 1 para direita) */
+    gap: 30px;
+}
+
+/* MANCHETE PRINCIPAL */
+.manchete-principal img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.texto-manchete {
+    margin-top: 15px;
+}
+
+.chapeu {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.manchete-principal h2 {
+    font-size: 32px;
+    color: #111;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.manchete-principal h2:hover, .card-lateral h3:hover {
+    color: #666;
+}
+
+.manchete-principal p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* NOTÍCIAS LATERAIS */
+.noticias-laterais {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-lateral {
+    padding: 15px 0;
+}
+
+.card-lateral h3 {
+    font-size: 18px;
+    color: #222;
+    line-height: 1.3;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* RESPONSIVIDADE (Para Celular) */
+@media (max-width: 768px) {
+    .container-noticias {
+        grid-template-columns: 1fr; /* Vira uma coluna única no celular */
+    }
+    
+    .manchete-principal h2 {
+        font-size: 24px;
+    }
+}

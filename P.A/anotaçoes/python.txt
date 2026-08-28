@@ -1,0 +1,125 @@
+Em Python, a print()função é usada para dizer a um computador para "falar". Isso é algo que usaremos bastante .
+
+A mensagem que queremos exibir deve estar dentro dos parênteses e entre aspas. 
+Podem ser aspas duplas "ou simples ', mas as aspas de abertura e fechamento devem ser iguais.
+
+Este é um exemplo de uma print()função:
+print('?? Howdy')
+O Python é executado linha por linha, de cima para baixo.
+
+Podemos exibir várias mensagens usando várias print()funções. Por exemplo, 
+se quisermos imprimir duas saudações simples:
+
+print('?? Morning Dharma!')
+print('???? Evening Sonny!')
+
+# Comentários
+Os comentários são muito importantes na programação porque são usados ??para documentar 
+o que nosso código faz. 
+Eles também são usados ??para desabilitar partes do programa.
+
+Ao executar o programa, os comentários são ignorados.
+
+Em Python, podemos criar um comentário usando o #símbolo de hashtag (#):
+
+A seguir: Capítulo 2
+
+Variáveis
+
+# Variáveis
+Em programação, variáveis ??são usadas para armazenar valores de dados. 
+Cada variável tem um nome e armazena um valor. 
+Pense nisso como uma caixa: coloque uma etiqueta e ela poderá armazenar coisas. 
+O nome da variável pode ser composto por letras, números e o _caractere sublinhado
+
+name = 'Erlich Bachman'
+user_id = 16180339887
+progress = 0.75
+xp = 60
+verified = True
+
+O =sinal de igual significa atribuição:
+
+Estamos atribuindo o valor da string 'Erlich Bachman'à variável name.
+
+Estamos atribuindo o valor numérico 16180339887à variável user_id.
+
+Estamos atribuindo o valor numérico 0.75à variável progress.
+
+Estamos atribuindo o valor numérico 60à variável xp.
+
+Estamos atribuindo o valor booleano Trueà variável verified.
+
+Também podemos alterar o valor de uma variável ou imprimi-lo:
+
+xp = 70
+xp = 80
+
+print(xp)    # Output: 80
+
+# Tipos de dados
+
+## Número inteiro
+
+Um número inteiro, ou R int, é um número completo. 
+Ele não possui vírgula decimal e inclui o número 0, 
+além dos números naturais positivos e negativos. 
+Se estivéssemos contando o número de pessoas em um ônibus ou o número de balas de goma em um pote, 
+usaríamos um número inteiro.
+
+year = 2023
+age = 32
+
+## Flutuar
+
+Um número de ponto flutuante, ou d float, é um número decimal. 
+Ele pode ser usado para representar frações ou medidas precisas. 
+Se estivéssemos medindo o comprimento e a largura do sofá, 
+calculando a porcentagem da nota de uma prova ou armazenando a média de rebatidas
+de um jogador de beisebol, usaríamos um d floatem vez de um n int.
+
+pi = 3.14159
+meal_cost = 12.99
+
+## Corda
+
+Uma string, ou strstring, é usada para armazenar texto. 
+Strings são delimitadas por aspas duplas " "ou aspas simples ' '.
+
+message = "good nite"
+username = '@snoopdogg'
+
+## Booleano
+
+Um tipo de dado booleano, ou bool`true`, armazena um valor que só pode ser verdadeiro ou falso. 
+Em Python, é escrito com inicial maiúscula Trueou ` boolean` False. 
+Seu nome é uma homenagem ao matemático britânico George Boole (1815-1864)
+
+late_to_class = False
+cranky = True
+
+# Expoentes
+
+Python também pode realizar exponenciação, como 2³ ou 10².
+
+Na matemática escrita, podemos ver um expoente como um número sobrescrito (como acima), 
+mas digitar sobrescritos nem sempre é fácil em teclados modernos. 
+Como a exponenciação é muito semelhante à multiplicação, 
+o Python usa a notação **.
+
+Então 2 ** 32³ é 10 ** 2igual a 10².
+
+# Entrada do usuário
+
+O Python utiliza a "input()" função para obter a entrada do usuário:
+
+username = input('Enter your name: ')
+
+print(username)
+
+Tipos de dados: int, float, str, bool.
+Operadores aritméticos: +, -, *, /.
+O %operador módulo encontra o resto da divisão.
+A **exponenciação encontra o expoente.
+A input()função é usada para obter a entrada do usuário.
+A int()função converte um valor em um número inteiro.
